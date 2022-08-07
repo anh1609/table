@@ -72,7 +72,7 @@ html{
     margin: 0 0 50px 0;
 }
 .box img{
-   
+
     margin-bottom: 10px;
     width: 100%;
     height: auto;
@@ -88,7 +88,7 @@ html{
     line-height: 20px;
 }
 /*about*/
-.about{
+.about1{
     padding:30px 50px;
     display: flex;
     width: 100%;
@@ -109,6 +109,7 @@ html{
     justify-content: space-around;
 }
 .login{
+
     background-color:#55a9a3 ;
     padding:30px 50px ;
 }
@@ -116,3 +117,17 @@ html{
     display: block;
     width: 100%;
 }
+/*lam border tam giác*/
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #333;
+}
+
+.triangle{
+    display: flex;
+
+}
+

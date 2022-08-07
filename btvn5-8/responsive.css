@@ -29,7 +29,7 @@
     .mobie_nav{
         margin: 0px 0;
         width: 100%;
-        background-color:green;
+        background-color:#55a9a3 ;
         text-transform: uppercase;
     }
     .mobie-menu .mobie_nav li{
@@ -68,7 +68,7 @@
         
     }
     /*about*/
-    .about{
+    .about1{
         display: block;
     }
     .about-left{
@@ -80,7 +80,7 @@
         height: auto;
         
     }
-
+    
 
  }
  @media(max-width:800px) {
@@ -95,11 +95,7 @@
         list-style: none;
         line-height: 100px;
     }
-    .box{
-        
-        
-    }
-
-    }
+    
+    
 
 }
