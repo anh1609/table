@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header_top{
+    height: 30px;
+    max-width: 35%;
+    display: flex;
+    border-top: solid 2px #E0E0E0FF;
+    border-bottom: solid 2px #E0E0E0FF;
+    position: relative;
+    margin: 0 auto;
+    /*position: absolute;*/
+}
+
+.nav_top{
+    display: flex;
+    margin: 1% auto;
+    text-align: center;
+    max-height: 15%;
+    list-style-type: none;
+}
+
+.nav_top img{
+    display: inline-block;
+    height: 60px;
+    /*margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: absolute;*/
+}
+
+.nav_top li a{
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px;
+    font-weight: 500;
+}
+
+.nav_top li a:hover{
+    color: #E0E0E0FF;
+    text-decoration: none;
+}
+
+.nav_top ul{
+    border: 10px;
+    border-color: black;
+}
+
+#header_mid{
+    /*margin: 4%;*/
+    margin-top: 40px;
+    max-height: 60%;
+    max-width: 100%;
+    background: #EFEFEFFF;
+}
+
+.nav_mid h1{
+    color: #53978CFF;
+    text-align: center;
+}
+
+.nav_mid p{
+    color: #777777FF;
+    text-align: center;
+    margin: 1%;
+}
+
+.picture{
+    margin: auto;
+}
+.picture_1{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+.picture_1 img{
+    margin: 10px auto;
+    border: solid 3px #E0E0E0FF;
+    height: 50%;
+    width: 80%;
+}
+
+
+.picture_2{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+.picture_2 img{
+    margin: 10px auto;
+    border: solid 3px #E0E0E0FF;
+    height: 50%;
+    width: 80%;
+}
+
+.header_bottom{
+    margin-top: 40px;
+    max-height: 60%;
+    max-width: 100%;
+    display: flex;
+}
+
+.header_bottom_left{
+    width: 70%;
+    margin-left: 45px;
+    margin-right: 30px;
+}
+
+.header_bottom_left h3{
+    color: #53978CFF;
+    margin-bottom: 10px;
+}
+
+.header_bottom_right{
+    width: 30%;
+    margin-right: 45px;
+}
+
+.header_bottom_right h3{
+    color: #53978CFF;
+    margin-bottom: 10px;
+}
+
+.header_bottom_right button{
+    font-size: 50px;
+    max-width: 100%;
+}

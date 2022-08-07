@@ -1,0 +1,105 @@
+@media all and (max-width: 480px){
+    .margintop{
+        margin-top: 40px;
+    }
+    
+    #header{
+        height: 50px;
+        
+    }
+    .nav li{
+        margin: 0px 0px;
+        line-height: 50px;
+    }
+    .nav{
+        display: none;
+    }
+    .mobie-menu{
+        display: inline-block;
+        width: 100%;
+
+    }
+    
+    .menu-icon{
+        font-size: 20px;
+        float: right;
+        line-height: 50px;
+        margin-right: 10px;
+    }
+    .mobie_nav{
+        margin: 0px 0;
+        width: 100%;
+        background-color:green;
+        text-transform: uppercase;
+    }
+    .mobie-menu .mobie_nav li{
+        list-style: none;
+        padding: 5px 0;
+    }
+    .mobie_nav li a{
+        color: black;
+        text-decoration: none;
+    }
+    .mobie_nav li:hover{
+        background-color: #ccc;
+    }
+    /*mobi home*/
+    .mobie_home{
+        margin-left: 10px;
+        display: inline-block;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+
+    /*content*/
+    .content{
+        margin-top: 50px;
+    }
+    .content h1{
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+    .gallery{
+        display: block;
+    }
+    .box{
+        width: 100%;
+        padding: 20px 10px;
+        
+    }
+    /*about*/
+    .about{
+        display: block;
+    }
+    .about-left{
+        height: 100%;
+        width: 100%;
+    }
+    .about-right{
+        width: 100%;
+        height: auto;
+        
+    }
+
+
+ }
+ @media(max-width:800px) {
+    #header{
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav li{
+        margin: 0px 10px;
+        list-style: none;
+        line-height: 100px;
+    }
+    .box{
+        
+        
+    }
+
+    }
+
+}

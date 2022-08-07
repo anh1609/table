@@ -1,0 +1,118 @@
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+html{
+     scroll-behavior: smooth;
+     font-family:Arial, Helvetica, sans-serif;
+}
+.colorfull{
+    color:#55a9a3 ;
+}
+.mobie-menu{
+    display: none;
+}
+.mobie_home{
+    display: block;
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 100px;
+    background-color: #fff;
+    border-top: solid 1px #E0E0E0FF;
+    border-bottom: solid 1px #E0E0E0FF;
+}
+.nav{
+    display: flex;
+    justify-content:center;
+    text-transform: uppercase;
+}
+.nav li{
+    margin: 0px 30px;
+    list-style: none;
+    line-height: 100px;
+}
+.nav li a:hover{
+    background-color: #ccc;
+}
+.nav li a{
+    color: #333;
+    padding: 38px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav >li >img{
+    width: 100px;
+    height: auto;
+}
+/**/
+.content{
+    margin-top: 100px;
+    line-height: 50px;
+    padding: 40px 0;
+    text-align: center;
+    color:#55a9a3;
+    background-color: #f6f7f9;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.boxs{
+    background-color:#f6f7f9;
+}
+.box{
+    width: 25%;
+    height: 300px;
+    margin: 0 0 50px 0;
+}
+.box img{
+   
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+.icon{
+    float: right;
+}
+.box .content_box{
+    line-height: 20px;
+}
+/*about*/
+.about{
+    padding:30px 50px;
+    display: flex;
+    width: 100%;
+}
+.about-left{
+    width: 60%;
+    height: 100%;
+    line-height: 20px;
+    
+
+}
+.about-right{
+    width: 40%;
+    height: 100%;
+}
+.fouricon{
+    display: flex;
+    justify-content: space-around;
+}
+.login{
+    background-color:#55a9a3 ;
+    padding:30px 50px ;
+}
+.iput{
+    display: block;
+    width: 100%;
+}
