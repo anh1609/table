@@ -12,6 +12,12 @@
     #contain .boxs {
         display: block;
     }
+    /*vncert  */
+    .name-vn,
+    .effect {
+        left: 30%;
+    }
+    /*  */
     /*  */
     .introl h1 {
         font-size: 30px;
@@ -29,5 +35,4 @@
         display: flex;
         padding: 0 3%;
     }
-    .tl-list li {}
 }
