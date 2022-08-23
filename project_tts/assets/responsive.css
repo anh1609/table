@@ -1,0 +1,33 @@
+@media all and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    header {
+        max-width: 800px;
+        padding: 0 0;
+    }
+    .nav li a {
+        font-size: 16px;
+    }
+    #contain .boxs {
+        display: block;
+    }
+    /*  */
+    .introl h1 {
+        font-size: 30px;
+    }
+    /*  */
+    .list-tl,
+    .tl-top {
+        overflow: scroll;
+    }
+    .tl-day li {
+        margin: 0 20px;
+        font-size: 16px;
+    }
+    .tl-list {
+        display: flex;
+        padding: 0 3%;
+    }
+    .tl-list li {}
+}
