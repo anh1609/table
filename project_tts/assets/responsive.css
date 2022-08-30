@@ -1,4 +1,25 @@
-@media all and (max-width: 800px) {}
+@media(min-width: 708px) and (max-width: 1023px) {
+    .nav li {
+        padding: 5px 10px;
+    }
+    .background .re-list {
+        justify-content: space-around;
+    }
+    .re-list .choose {
+        margin: 0;
+    }
+    #contain .boxs {
+        display: block;
+    }
+    .boxs .box {
+        max-width: 100%;
+        width: calc(100% - 15px);
+        margin: 10px 5px;
+    }
+    .tl-time .tim {
+        padding: 45px 0px;
+    }
+}
 
 @media all and (max-width: 700px) {
     body {
@@ -68,8 +89,8 @@
     }
     /* boc0px; */
     .boxs .box {
-        width: calc(100% - 20px);
-        margin: 20px 20px 0 20px;
+        width: calc(100% - 15px);
+        margin: 10px 5px;
     }
     /* timeline */
     .timeline_header h1 {
@@ -83,6 +104,7 @@
     }
     .recruit-list {
         display: block;
+        margin: 10px 5px;
     }
     .ut a {
         top: 100%;
