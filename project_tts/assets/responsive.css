@@ -1,38 +1,197 @@
-@media all and (max-width: 800px) {
+@media all and (max-width: 800px) {}
+
+@media all and (max-width: 700px) {
     body {
         width: 100%;
     }
-    header {
-        max-width: 800px;
-        padding: 0 0;
-    }
+    header {}
     .nav li a {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .nav li {
+        padding: 5px 20px;
     }
     #contain .boxs {
         display: block;
     }
     /*vncert  */
     .name-vn,
-    .effect {
-        left: 30%;
-    }
-    /*  */
-    /*  */
+    .effect {}
+    /* ff */
     .introl h1 {
-        font-size: 30px;
+        font-size: 14px;
+    }
+    .introl hr {}
+    .content_header h3 {
+        margin: 0 5px;
+        font-size: 20px;
     }
     /*  */
-    .list-tl,
-    .tl-top {
-        overflow: scroll;
+    .td-boxs {
+        font-size: 25px;
     }
     .tl-day li {
-        margin: 0 20px;
-        font-size: 16px;
+        margin: 0 3%;
+        font-size: 14px;
     }
     .tl-list {
         display: flex;
         padding: 0 3%;
+    }
+    /* vncert */
+    .background .introl {
+        bottom: 50%;
+    }
+    .background .re-list {
+        bottom: 10%px;
+    }
+    .re-list .choose {
+        margin: 1% 5%;
+    }
+    .choose a {
+        font-weight: 500;
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    .item_line1 {
+        font-size: 20px;
+    }
+    .item_line2 {
+        font-size: 20px;
+    }
+    .item_line3 {
+        font-size: 20px;
+    }
+    .item_line4 {
+        font-size: 15px;
+        margin: 10px 0 33px 25%;
+    }
+    /* boc0px; */
+    .boxs .box {
+        width: calc(100% - 20px);
+        margin: 20px 20px 0 20px;
+    }
+    /* timeline */
+    .timeline_header h1 {
+        font-size: 25px;
+    }
+    .recruit-header h1 {
+        font-size: 30px;
+    }
+    .recruit-header h3 {
+        font-size: 20px;
+    }
+    .recruit-list {
+        display: block;
+    }
+    .ut a {
+        top: 100%;
+        left: 25%;
+    }
+    /* .hinde {
+        width: 100vh;
+        overflow: hidden;
+    } */
+    .mobie-menu {
+        display: inline;
+    }
+    .nav {
+        background-color: #fff;
+        width: 250px;
+        display: none;
+        position: fixed;
+        top: 0px;
+        right: 0;
+        height: 100%;
+        z-index: 17;
+        animation: fadeInRight 1s;
+    }
+    .nav li {
+        display: block;
+        margin: 10px 10px
+    }
+    .nav li a {
+        padding: 5px 20px;
+    }
+    .nav li .ti-close:hover {
+        color: red;
+    }
+    .m-nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 14;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .icon-align {
+        line-height: 80px;
+        padding: 5px 10px;
+        margin: 0px 20px 0 0;
+        color: rgb(226, 56, 56);
+        font-size: 20px;
+    }
+    .nav .icon_insidee {
+        display: none;
+    }
+    .nav li:hover .icon_inside {
+        display: none;
+    }
+    .ti-close {
+        display: block;
+        float: right;
+        padding: 0px 0px;
+        font-size: 25px;
+        color: rgb(19, 18, 18);
+    }
+    /*  */
+    #contain .boxs {
+        display: block;
+    }
+    .background .re-list {
+        display: block;
+    }
+    .phase-tl {
+        display: block;
+        width: 100%;
+    }
+    /* tl-top */
+    .tl-top {
+        overflow-x: scroll;
+    }
+    .tl-time {
+        min-width: 100%;
+    }
+    .phase-1 {
+        width: 95%;
+    }
+    .phase-2 {
+        width: 95%;
+    }
+    .present {
+        margin: 2% 10px;
+    }
+    footer {
+        display: block;
+        background-color: black;
+    }
+    .footer-left {
+        max-width: 100%;
+        width: 100%;
+        margin: 10px 0px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .footer-left h3 {
+        font-weight: 300;
+        font-size: 16px;
+        color: #fff;
+    }
+    .footer-right {
+        padding: 0 10px;
+        color: #fff;
+        font-weight: 300;
     }
 }

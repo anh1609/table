@@ -2,12 +2,28 @@ window.onscroll = function() { myFunction() };
 
 function myFunction() {
     var navbar = document.getElementById("myheader");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
         navbar.className = " colorheader" + " animate-header" + " w3-card";
     } else {
         navbar.className = navbar.className.replace("colorheader animate-header w3-card", "")
     }
 }
+// open-menu mobie
+
+function js_open() {
+    document.getElementById("myhome").style.display = "block";
+    document.getElementById("p").style.display = "block";
+    document.querySelector("body").style.overflow = "hidden"
+
+
+}
+
+function js_close() {
+    document.getElementById("myhome").style.display = "none";
+    document.getElementById("p").style.display = "none";
+    document.querySelector("body").style.overflow = "unset"
+}
+
 
 // thay doi anh
 // var index = 1;

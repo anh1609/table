@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vncert/cc</title>
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
@@ -24,154 +24,213 @@
 
             <img src="./assets/img/imgbanner/Screenshot_2022-08-18_150641-removebg-preview.png" alt="">
 
-            <ul class="nav">
+            <ul class="nav" id="myhome">
                 <li>
-                    <a href="#">
-                        <span class="icon_insidee"></span> TRANG CHỦ
+                    <i class="ti-close " onclick="js_close()"></i>
+                </li>
+                <li>
+                    <a href="# ">
+                        <span class="icon_insidee "></span> TRANG CHỦ
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <span class="icon_inside"></span> TIMELINE
+                    <a href="#timeline ">
+                        <span class="icon_inside "></span> TIMELINE
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <div class="icon_inside"></div>
+                    <a href="#recruit">
+                        <div class="icon_inside "></div>
                         ỨNG TUYỂN
                     </a>
                 </li>
+                <li>
+                    <a href="# ">
+                        <div class="icon_inside "></div>
+                        LIÊN HỆ
+                    </a>
+                </li>
+
 
             </ul>
+            <div class="m-nav " id="p"></div>
+
+
+            <div class="mobie-menu " id="mobile-menu ">
+                <i class="ti-menu icon-align " onclick="js_open() "></i>
+            </div>
+
         </header>
+
         <!-- background -->
-        <div class="background">
-            <!-- <div class="br-star">
+        <div class="background ">
+            <!-- <div class="br-star ">
 
             </div> -->
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>
 
-            <div class="introl">
-                <!-- <h3>VNCERT/ <span class="re">CC</span></h3> -->
-                <div class="pos">
-                    <div class="name-vn">VNCERT/CC</div>
-                    <div class="effect">
-                        <div class="effect-content">
-                            VNCERT/<span class="re">CC</span>
+            <div class="introl ">
+                <!-- <h3>VNCERT/ <span class="re ">CC</span></h3> -->
+                <div class="pos ">
+                    <div class="name-vn ">VNCERT/CC</div>
+                    <!-- <div class="effect ">
+                        <div class="effect-content ">
+                            VNCERT/<span class="re ">CC</span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-                <hr style="border: 1px solid rgb(53, 51, 51);width: 100%;">
+                <hr style="border: 1px solid rgb(233, 223, 223);width: 100%;margin: 10px 0; ">
                 <h1>CHƯƠNG TRÌNH ĐÀO TẠO THỰC TẬP SINH <br>VƯỜN ƯƠM 2022</h1>
+            </div>
+            <div class="re-list ">
+                <div class="choose">
+                    <a href="# ">FrontEnd</a>
+                </div>
+                <div class="choose">
+                    <a href="# ">Pentest</a>
+                </div>
+                <div class="choose">
+                    <a href="# ">BackEnd</a>
+                </div>
+                <div class="choose">
+                    <a href="# ">Security</a>
+                </div>
             </div>
         </div>
         <!-- body -->
         <div id="contain">
-            <div class="content_header">
-                <div class="item_line1">
+            <div class="content_header ">
+                <div class="item_line1 ">
 
                     <h3>Bạn đam mê công nghệ và </h3>
                 </div>
-                <div class="item_line2">
+                <div class="item_line2 ">
                     <h3> muốn tạo ra những thay đổi cho tương lai Việt Nam? </h3>
                 </div>
-                <div class="item_line3">
-                    <h3 style="color: red;"> Đến với VƯỜN ƯƠM ngay ngày hôm nay !</h3>
+                <div class="item_line3 ">
+                    <h3 style="color: rgb(38, 118, 192); "> Đến với VƯỜN ƯƠM ngay ngày hôm nay !</h3>
                 </div>
-                <div class="item_line4">
+                <div class="item_line4 ">
                     Chương trình Vườn Ươm được thiết kế để giúp các tài năng trẻ khai phá tiềm năng và phát triển chuyên môn trong các lĩnh vực
-                    <strong>Dev,Security,Ai & Internet of Things.</strong>
+                    <strong>FrontEnd,Pentest,BackEnd,Security.</strong>
                 </div>
 
             </div>
-            <div class="clear"></div>
+            <div class="clear "></div>
+            <h1 class="td-boxs" style="text-align: center;">Tại sao bạn nên thực tập ở <span style="color: blue;">VNCERT/</span> <span style="color: red;">CC</span></h1>
             <div class="boxs">
-                <div class="box">
-                    <img src="./assets/img/img1/DT-PTNNL-20200923090835972.png" alt="">
+
+                <div class="box ">
+                    <img src="./assets/img/img1/DT-PTNNL-20200923090835972.png " alt=" ">
                     <p>Tham gia
                         <strong>đào tạo chuyên sâu</strong> được dẫn dắt bởi các chuyên gia nhiệt huyết.
                     </p>
                 </div>
-                <div class="box">
-                    <img src="./assets/img/img1/4oZldv6.jpg" alt="">
+                <div class="box ">
+                    <img src="./assets/img/img1/4oZldv6.jpg " alt=" ">
                     <p>Tham gia các
                         <strong> dự án thực tế </strong> thử thách bản thân với các bài toán khó.
                     </p>
                 </div>
-                <div class="box">
-                    <img src="./assets/img/img1/ic-intro4.svg" alt="">
+                <div class="box ">
+                    <img src="./assets/img/img1/ic-intro4.svg " alt=" ">
                     <p>
                         <strong>Giao Lưu,Kết Nối</strong> với các bạn đồng trang lứa, tiền bối trong nghề thông qua hoạt động du lịch, chia sẻ tri thức.
                     </p>
                 </div>
-                <div class="box">
-                    <img src="./assets/img/img1/thanh-lap-cong-ty.jpg" alt="">
+                <div class="box ">
+                    <img src="./assets/img/img1/thanh-lap-cong-ty.jpg " alt=" ">
                     <p>Trình bày
                         <strong> sáng kiến ý tưởng </strong> trước lãnh đạo tập đoàn.
                     </p>
                 </div>
             </div>
             <!-- timline -->
-            <div class="stages">
-                <div class="timeline">
-                    <div class="timeline_header">
-                        <i class="ti-calendar"></i>
+            <div class="stages ">
+                <div class="timeline" id="timeline">
+                    <div class="timeline_header ">
+                        <i class="ti-calendar "></i>
                         <h1>TIMELINE</h1>
                     </div>
                 </div>
 
-                <div class="list-tl">
-                    <div class="tl-top">
-                        <ul class="tl-day">
+                <div class="list-tl ">
+                    <div class="tl-top ">
+                        <div class="tl-time">
+                            <div class="tim">
+                                <i class="ti-arrow-right">14/7</i>
+                            </div>
+                            <div class="ct">
+                                Tuyển chọn hồ sơ
+                            </div>
 
-                            <li>
-                                <i class="ti-arrow-right"></i> 14/7
-                            </li>
-                            <li>
-                                <i class="ti-arrow-right"></i> 22/7
-                            </li>
-                            <li>
-                                <i class="ti-arrow-right"></i> tháng 8
-                            </li>
-                            <li>
-                                <i class="ti-arrow-right"></i> tháng 9
-                            </li>
-                            <li>
-                                <i class="ti-arrow-right"></i> tháng 10
-                            </li>
-                            <li>
-                                <i class="ti-arrow-right"></i> tháng 11
-                            </li>
-                        </ul>
+                        </div>
+                        <div class="tl-time">
+                            <div class="tim">
+                                <i class="ti-arrow-right">22/7</i>
+                            </div>
+                            <div class="ct">
+                                Thông báo kết quả
+                            </div>
+
+                        </div>
+                        <div class="tl-time">
+                            <div class="tim">
+                                <i class="ti-arrow-right">tháng 8</i>
+                            </div>
+                            <div class="ct">
+                                Khai giảng Gia đoạn 1
+                            </div>
+
+                        </div>
+                        <div class="tl-time">
+                            <div class="tim">
+                                <i class="ti-arrow-right">tháng 9</i>
+                            </div>
+                            <div class="ct">
+                                Khai giảng Gia đoạn 2
+                            </div>
+
+                        </div>
+                        <div class="tl-time">
+                            <div class="tim">
+                                <i class="ti-arrow-right">tháng 10</i>
+                            </div>
+                            <div class="ct">
+                                Khai giảng Gia đoạn 3
+                            </div>
+
+                        </div>
+                        <div class="tl-time">
+                            <div class="tim">
+                                <i class="ti-arrow-right ">tháng 11</i>
+                            </div>
+                            <div class="ct">
+                                Có cơ hội tiếp nhận vị trí tại vncert
+                            </div>
+
+                        </div>
                     </div>
-                    <ul class="tl-list">
 
-                        <li>Tuyển chọn hồ sơ</li>
-                        <li>Thông báo kết quả</li>
-                        <li>Khai giảng Gia đoạn 1</li>
-                        <li>Khai giảng Gia đoạn 2</li>
-                        <li>Khai giảng Gia đoạn 3</li>
-                        <li>Có cơ hội tiếp nhận vị trí tại vncert</li>
-                    </ul>
 
-                    <div class="phase-tl">
-                        <div class="phase-1">
+                    <div class="phase-tl ">
+                        <div class="phase-1 wow ">
                             <h3>Giai đoạn 1 và 2 (2 tháng)</h3>
-                            <div style="display: flex;">
-                                <div class="arrow-right"></div>
-                                <h2 style="margin: 10px 10px;">Đào tạo chuyên sâu và thực hành</h2>
+                            <div style="display: flex; ">
+                                <div class="arrow-right "></div>
+                                <h2 style="margin: 10px 10px; ">Đào tạo chuyên sâu và thực hành</h2>
                             </div>
                             <p>Sinh viên được tham gia các buổi đào tạo, chia sẻ, định hướng, đồng thời nhận được sự hỗ trợ từ mentor để định hướng nghề nghiệp. Các bạn cũng được tham gia du lịch cùng mentor, thành viên trong chương trình và nhận các suất
                                 học bổng đào tạo hấp dẫn.</p>
                         </div>
 
-                        <div class="phase-1">
+                        <div class="phase-2">
                             <h3>Giai đoạn 3(1 tháng)</h3>
-                            <div style="display: flex;">
-                                <div class="arrow-right"></div>
-                                <h2 style="margin: 10px 10px;">Tham gia dự án thực tế <br></h2>
+                            <div style="display: flex; ">
+                                <div class="arrow-right "></div>
+                                <h2 style="margin: 10px 10px; ">Tham gia dự án thực tế <br></h2>
                             </div>
                             <p>Những sinh viên xuất sắc nhất sẽ được lựa chọn tham gia các dự án thực tế của Vncert trong lĩnh vực Dev,Security,Ai & Internet of Things. Các bạn sẽ được các mentor, Senior Buddy dẫn dắt, đồng hành xuyên suốt quá trình làm
                                 việc và nhận học bổng tham gia dự án hấp dẫn. Kết thúc giai đoạn này, sinh viên có những sáng kiến ý tưởng xuất sắc nhất.</p>
@@ -182,107 +241,109 @@
 
             </div>
             <!-- ung tuyen -->
-            <div class="recruit">
-                <div class="recruit-header">
+            <div class="recruit " id="recruit">
+                <div class="recruit-header ">
                     <h1>Ứng Tuyển</h1>
                     <h3>Tạo hồ sơ và trực tiếp ứng tuyển ngay ngày hôm nay!</h3>
                 </div>
-                <div class="recruit-list">
-                    <div class="choose">
-                        <a href="#">Dev</a>
+                <div class="recruit-list ">
+                    <div class="choose ">
+                        <a href="# ">FrontEnd</a>
                     </div>
-                    <div class="choose">
-                        <a href="#">Security</a>
+                    <div class="choose ">
+                        <a href="# ">Pentest</a>
                     </div>
-                    <div class="choose">
-                        <a href="#">AI</a>
+                    <div class="choose ">
+                        <a href="# ">BackEnd</a>
                     </div>
-                    <div class="choose">
-                        <a href="#">Internet of Things</a>
+                    <div class="choose ">
+                        <a href="# ">Security</a>
                     </div>
                 </div>
-                <div class="present">
+                <div class="present ">
                     <p> Trung tâm Ứng cứu khẩn cấp không gian mạng Việt Nam là đơn vị sự nghiệp công lập trực thuộc Cục An toàn thông tin – Bộ Thông tin và Truyền thông (viết tắt là VNCERT/CC), thực hiện chức năng là đầu mối kỹ thuật điều phối ứng cứu sự
                         cố an toàn không gian mạng và kiểm định an toàn thông tin trên phạm vi toàn quốc; quản lý, vận hành các hệ thống số liệu, cơ sở dữ liệu, hệ thống kỹ thuật về điều phối ứng cứu sự cố, kiểm định và phòng, chống thư điện tử rác, tin
                         nhắn rác phục vụ công tác quản lý nhà nước và thực thi pháp luật về an toàn thông tin; là đầu mối hợp tác quốc tế với các cơ quan, tổ chức có chức năng ứng cứu sự cố và kiểm định an toàn thông tin. Trung tâm Ứng cứu khẩn cấp không
                         gian mạng Việt Nam có tư cách pháp nhân, có con dấu và tài khoản riêng để giao dịch theo quy định của pháp luật; có trụ sở chính đặt tại thành phố Hà Nội và các chi nhánh tại thành phố Hồ Chí Minh và thành phố Đà Nẵng.</p>
+
+                    <div class="ut ">
+                        <a href="# "> ỨNG TUYỂN tại đây</a>
+                    </div>
                 </div>
-                <div class="ut">
-                    <a href="#"> ỨNG TUYỂN tại đây</a>
-                </div>
+                >
             </div>
 
             <!--anh img -->
-            <!-- <div class="im">
-                <img id="myimg" onclick="changeImg()" src="./assets/img/changeimg/img1.jpg" alt="">
+            <!-- <div class="im ">
+                <img id="myimg " onclick="changeImg() " src="./assets/img/changeimg/img1.jpg " alt=" ">
 
             </div> -->
-            <div class="slideshow-container">
+            <div class="slideshow-container ">
 
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 4</div>
-                    <img src="./assets/img/changeimg/img1.jpg" style="width:100%">
-                    <div class="text">Caption Text</div>
+                <div class="mySlides fade ">
+                    <div class="numbertext ">1 / 4</div>
+                    <img src="./assets/img/changeimg/img1.jpg " style="width:100% ">
+                    <div class="text ">Caption Text</div>
                 </div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 4</div>
-                    <img src="./assets/img/changeimg/img2.jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
+                <div class="mySlides fade ">
+                    <div class="numbertext ">2 / 4</div>
+                    <img src="./assets/img/changeimg/img2.jpg " style="width:100% ">
+                    <div class="text ">Caption Two</div>
                 </div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 4</div>
-                    <img src="./assets/img/changeimg/img3.jpg" style="width:100%">
-                    <div class="text">Caption Three</div>
+                <div class="mySlides fade ">
+                    <div class="numbertext ">3 / 4</div>
+                    <img src="./assets/img/changeimg/img3.jpg " style="width:100% ">
+                    <div class="text ">Caption Three</div>
                 </div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 4</div>
-                    <img src="./assets/img/changeimg/img4.jpg" style="width:100%">
-                    <div class="text">Caption Three</div>
+                <div class="mySlides fade ">
+                    <div class="numbertext ">4 / 4</div>
+                    <img src="./assets/img/changeimg/img4.jpg " style="width:100% ">
+                    <div class="text ">Caption Three</div>
                 </div>
 
             </div>
             <br>
 
-            <div style="text-align:center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+            <div style="text-align:center ">
+                <span class="dot "></span>
+                <span class="dot "></span>
+                <span class="dot "></span>
+                <span class="dot "></span>
             </div>
 
 
 
         </div>
-        <div class="apply">
-            <a href="#">APPLY NGAY</a>
+        <div class="apply ">
+            <a href="# ">APPLY NGAY</a>
         </div>
         <footer>
-            <div class="footer-left">
-                <h1>VNCERT <span class="slash">/</span> <span class="c">CC</span></h1>
-                <h3> Cục An toàn thông tin <br> - Trung tâm Ứng cứu khẩn cấp không gian mạng Việt Nam</h3>
+            <div class="footer-left ">
+                <h1>VNCERT <span class="slash ">/</span> <span class="c ">CC</span></h1>
+                <h3> Cục An toàn thông tin <br> - Trung tâm Ứng cứu khẩn cấp không gian mạng Việt Nam.</h3>
 
 
             </div>
-            <div class="footer-right">
+            <div class="footer-right ">
                 <div>
-                    <i class="ti-email"> mail:</i>
-                    <a href="#">
+                    <i class="ti-email "> mail:</i>
+                    <a href="# ">
                       office@vncert.vn</a>
                 </div>
                 <div>
-                    <i class="ti-location-pin"> Địa chỉ: Tầng 5, 115 Trần Duy Hưng, Trung Hoà, Cầu Giấy, Hà Nội</i>
+                    <i class="ti-location-pin "> Địa chỉ: Tầng 5, 115 Trần Duy Hưng, Trung Hoà, Cầu Giấy, Hà Nội.</i>
 
                 </div>
                 <div>
-                    <i class="bi bi-telephone"> Hotline:</i>
-                    <a href="#">0869 100317</a>
+                    <i class="bi bi-telephone "> Hotline:</i>
+                    <a href="# ">0869 100317</a>
                 </div>
                 <div>
-                    <i class="bi bi-facebook"></i>
-                    <a href="#">facebok</a>
+                    <i class="bi bi-facebook "></i>
+                    <a href="# ">facebok</a>
                 </div>
             </div>
         </footer>
@@ -290,7 +351,11 @@
 
     </div>
 
-    <script src="./assets/main.js"></script>
+    <script src="./assets/main.js "></script>
+    <!-- <script src="js/wow.min.js "></script>
+    <script>
+        new WOW().init();
+    </script> -->
 </body>
 
 </html>
