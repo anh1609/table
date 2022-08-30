@@ -23,7 +23,15 @@ function js_close() {
     document.getElementById("p").style.display = "none";
     document.querySelector("body").style.overflow = "unset"
 }
+// open login
+function js_open_log() {
+    document.getElementById("login1").style.display = "block";
+}
 
+function js_close_log() {
+    document.getElementById("login1").style.display = "none";
+
+}
 
 // thay doi anh
 // var index = 1;
@@ -59,3 +67,24 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+// login
+var working = false;
+$('.login').on('submit', function(e) {
+    e.preventDefault();
+    if (working) return;
+    working = true;
+    var $this = $(this),
+        $state = $this.find('button > .state');
+    $this.addClass('loading');
+    $state.html('Authenticating');
+    setTimeout(function() {
+        $this.addClass('ok');
+        $state.html('Welcome back!');
+        setTimeout(function() {
+            $state.html('Log in');
+            $this.removeClass('ok loading');
+            working = false;
+        }, 4000);
+    }, 3000);
+});
